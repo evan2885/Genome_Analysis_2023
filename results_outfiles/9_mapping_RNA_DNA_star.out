@@ -1,0 +1,96 @@
+	STAR --runThreadN 15 --runMode genomeGenerate --genomeDir /proj/genomeanalysis2023/nobackup/work/evelinaa/9_mapping_RNA_DNA_star --genomeFastaFiles /home/eveli/genomeanalysis2023/Genome_Analysis_2023/analyses/6_masking_repeatmasker/improved_assembly_pilon.fasta.masked --genomeSAindexNbases 11
+	STAR version: 2.7.9a   compiled: 2021-10-20T18:01:41+0200 rackham5.uppmax.uu.se:/sw/bioinfo/star/2.7.9a/src/STAR-2.7.9a/source
+May 16 20:37:13 ..... started STAR run
+!!!!! WARNING: Could not move Log.out file from ./Log.out into /proj/genomeanalysis2023/nobackup/work/evelinaa/9_mapping_RNA_DNA_star/Log.out. Will keep ./Log.out
+
+May 16 20:37:13 ... starting to generate Genome files
+May 16 20:37:14 ... starting to sort Suffix Array. This may take a long time...
+May 16 20:37:15 ... sorting Suffix Array chunks and saving them to disk...
+May 16 20:37:18 ... loading chunks from disk, packing SA...
+May 16 20:37:19 ... finished generating suffix array
+May 16 20:37:19 ... generating Suffix Array index
+May 16 20:37:21 ... completed Suffix Array index
+May 16 20:37:21 ... writing Genome to disk ...
+May 16 20:37:21 ... writing Suffix Array to disk ...
+May 16 20:37:21 ... writing SAindex to disk
+May 16 20:37:21 ..... finished successfully
+	STAR --runThreadN 15 --genomeDir /proj/genomeanalysis2023/nobackup/work/evelinaa/9_mapping_RNA_DNA_star --readFilesIn /home/eveli/genomeanalysis2023/Genome_Analysis_2023/analyses/8_trimming_transcriptome_trimmomatic/8_trimmed_transcriptomes_1P /home/eveli/genomeanalysis2023/Genome_Analysis_2023/analyses/8_trimming_transcriptome_trimmomatic/8_trimmed_transcriptomes_2P --outFileNamePrefix /proj/genomeanalysis2023/nobackup/work/evelinaa/9_mapping_RNA_DNA_star/SRR6040095_scaffold_10_P_mapped --outSAMtype BAM SortedByCoordinate --genomeSAindexNbases 11 --limitBAMsortRAM 2069342127
+	STAR version: 2.7.9a   compiled: 2021-10-20T18:01:41+0200 rackham5.uppmax.uu.se:/sw/bioinfo/star/2.7.9a/src/STAR-2.7.9a/source
+May 16 20:37:21 ..... started STAR run
+May 16 20:37:21 ..... loading genome
+May 16 20:37:22 ..... started mapping
+May 16 20:39:31 ..... finished mapping
+May 16 20:39:31 ..... started sorting BAM
+May 16 20:40:01 ..... finished successfully
+	STAR --runThreadN 15 --genomeDir /proj/genomeanalysis2023/nobackup/work/evelinaa/9_mapping_RNA_DNA_star --readFilesIn /home/eveli/genomeanalysis2023/Genome_Analysis_2023/analyses/8_trimming_transcriptome_trimmomatic/8_trimmed_transcriptomes_1U /home/eveli/genomeanalysis2023/Genome_Analysis_2023/analyses/8_trimming_transcriptome_trimmomatic/8_trimmed_transcriptomes_2U --outFileNamePrefix /proj/genomeanalysis2023/nobackup/work/evelinaa/9_mapping_RNA_DNA_star/SRR6040095_scaffold_10_U_mapped --outSAMtype BAM SortedByCoordinate --genomeSAindexNbases 11
+	STAR version: 2.7.9a   compiled: 2021-10-20T18:01:41+0200 rackham5.uppmax.uu.se:/sw/bioinfo/star/2.7.9a/src/STAR-2.7.9a/source
+May 16 20:40:05 ..... started STAR run
+May 16 20:40:05 ..... loading genome
+May 16 20:40:05 ..... started mapping
+May 16 20:40:06 ..... finished mapping
+May 16 20:40:07 ..... started sorting BAM
+May 16 20:40:07 ..... finished successfully
+	STAR --runThreadN 15 --genomeDir /proj/genomeanalysis2023/nobackup/work/evelinaa/9_mapping_RNA_DNA_star --readFilesIn /home/eveli/genomeanalysis2023/4_Tean_Teh_2017/transcriptome/trimmed/SRR6040092_scaffold_10.1.fastq.gz /home/eveli/genomeanalysis2023/4_Tean_Teh_2017/transcriptome/trimmed/SRR6040092_scaffold_10.2.fastq.gz --readFilesCommand zcat --outFileNamePrefix /proj/genomeanalysis2023/nobackup/work/evelinaa/9_mapping_RNA_DNA_star/SRR6040092_scaffold_10_mapped --outSAMtype BAM SortedByCoordinate --genomeSAindexNbases 11
+	STAR version: 2.7.9a   compiled: 2021-10-20T18:01:41+0200 rackham5.uppmax.uu.se:/sw/bioinfo/star/2.7.9a/src/STAR-2.7.9a/source
+May 16 20:40:08 ..... started STAR run
+May 16 20:40:08 ..... loading genome
+May 16 20:40:08 ..... started mapping
+May 16 20:41:01 ..... finished mapping
+May 16 20:41:01 ..... started sorting BAM
+May 16 20:41:09 ..... finished successfully
+	STAR --runThreadN 15 --genomeDir /proj/genomeanalysis2023/nobackup/work/evelinaa/9_mapping_RNA_DNA_star --readFilesIn /home/eveli/genomeanalysis2023/4_Tean_Teh_2017/transcriptome/trimmed/SRR6040093_scaffold_10.1.fastq.gz /home/eveli/genomeanalysis2023/4_Tean_Teh_2017/transcriptome/trimmed/SRR6040093_scaffold_10.2.fastq.gz --readFilesCommand zcat --outFileNamePrefix /proj/genomeanalysis2023/nobackup/work/evelinaa/9_mapping_RNA_DNA_star/SRR6040093_scaffold_10_mapped --outSAMtype BAM SortedByCoordinate --genomeSAindexNbases 11
+	STAR version: 2.7.9a   compiled: 2021-10-20T18:01:41+0200 rackham5.uppmax.uu.se:/sw/bioinfo/star/2.7.9a/src/STAR-2.7.9a/source
+May 16 20:41:11 ..... started STAR run
+May 16 20:41:11 ..... loading genome
+May 16 20:41:11 ..... started mapping
+May 16 20:41:54 ..... finished mapping
+May 16 20:41:54 ..... started sorting BAM
+May 16 20:41:59 ..... finished successfully
+	STAR --runThreadN 15 --genomeDir /proj/genomeanalysis2023/nobackup/work/evelinaa/9_mapping_RNA_DNA_star --readFilesIn /home/eveli/genomeanalysis2023/4_Tean_Teh_2017/transcriptome/trimmed/SRR6040094_scaffold_10.1.fastq.gz /home/eveli/genomeanalysis2023/4_Tean_Teh_2017/transcriptome/trimmed/SRR6040094_scaffold_10.2.fastq.gz --readFilesCommand zcat --outFileNamePrefix /proj/genomeanalysis2023/nobackup/work/evelinaa/9_mapping_RNA_DNA_star/SRR6040094_scaffold_10_mapped --outSAMtype BAM SortedByCoordinate --genomeSAindexNbases 11 --limitBAMsortRAM 2299179937
+	STAR version: 2.7.9a   compiled: 2021-10-20T18:01:41+0200 rackham5.uppmax.uu.se:/sw/bioinfo/star/2.7.9a/src/STAR-2.7.9a/source
+May 16 20:42:00 ..... started STAR run
+May 16 20:42:00 ..... loading genome
+May 16 20:42:00 ..... started mapping
+May 16 20:43:27 ..... finished mapping
+May 16 20:43:27 ..... started sorting BAM
+May 16 20:43:57 ..... finished successfully
+	STAR --runThreadN 15 --genomeDir /proj/genomeanalysis2023/nobackup/work/evelinaa/9_mapping_RNA_DNA_star --readFilesIn /home/eveli/genomeanalysis2023/4_Tean_Teh_2017/transcriptome/trimmed/SRR6040096_scaffold_10.1.fastq.gz /home/eveli/genomeanalysis2023/4_Tean_Teh_2017/transcriptome/trimmed/SRR6040096_scaffold_10.2.fastq.gz --readFilesCommand zcat --outFileNamePrefix /proj/genomeanalysis2023/nobackup/work/evelinaa/9_mapping_RNA_DNA_star/SRR6040096_scaffold_10_mapped --outSAMtype BAM SortedByCoordinate --genomeSAindexNbases 11
+	STAR version: 2.7.9a   compiled: 2021-10-20T18:01:41+0200 rackham5.uppmax.uu.se:/sw/bioinfo/star/2.7.9a/src/STAR-2.7.9a/source
+May 16 20:44:01 ..... started STAR run
+May 16 20:44:01 ..... loading genome
+May 16 20:44:01 ..... started mapping
+May 16 20:44:42 ..... finished mapping
+May 16 20:44:42 ..... started sorting BAM
+May 16 20:44:58 ..... finished successfully
+	STAR --runThreadN 15 --genomeDir /proj/genomeanalysis2023/nobackup/work/evelinaa/9_mapping_RNA_DNA_star --readFilesIn /home/eveli/genomeanalysis2023/4_Tean_Teh_2017/transcriptome/trimmed/SRR6040097_scaffold_10.1.fastq.gz /home/eveli/genomeanalysis2023/4_Tean_Teh_2017/transcriptome/trimmed/SRR6040097_scaffold_10.2.fastq.gz --readFilesCommand zcat --outFileNamePrefix /proj/genomeanalysis2023/nobackup/work/evelinaa/9_mapping_RNA_DNA_star/SRR6040097_scaffold_10_mapped --outSAMtype BAM SortedByCoordinate --genomeSAindexNbases 11
+	STAR version: 2.7.9a   compiled: 2021-10-20T18:01:41+0200 rackham5.uppmax.uu.se:/sw/bioinfo/star/2.7.9a/src/STAR-2.7.9a/source
+May 16 20:45:00 ..... started STAR run
+May 16 20:45:00 ..... loading genome
+May 16 20:45:00 ..... started mapping
+May 16 20:45:22 ..... finished mapping
+May 16 20:45:23 ..... started sorting BAM
+May 16 20:45:24 ..... finished successfully
+	STAR --runThreadN 15 --genomeDir /proj/genomeanalysis2023/nobackup/work/evelinaa/9_mapping_RNA_DNA_star --readFilesIn /home/eveli/genomeanalysis2023/4_Tean_Teh_2017/transcriptome/trimmed/SRR6156066_scaffold_10.1.fastq.gz /home/eveli/genomeanalysis2023/4_Tean_Teh_2017/transcriptome/trimmed/SRR6156066_scaffold_10.2.fastq.gz --readFilesCommand zcat --outFileNamePrefix /proj/genomeanalysis2023/nobackup/work/evelinaa/9_mapping_RNA_DNA_star/SRR6156066_scaffold_10_mapped --outSAMtype BAM SortedByCoordinate --genomeSAindexNbases 11
+	STAR version: 2.7.9a   compiled: 2021-10-20T18:01:41+0200 rackham5.uppmax.uu.se:/sw/bioinfo/star/2.7.9a/src/STAR-2.7.9a/source
+May 16 20:45:25 ..... started STAR run
+May 16 20:45:25 ..... loading genome
+May 16 20:45:26 ..... started mapping
+May 16 20:45:55 ..... finished mapping
+May 16 20:45:55 ..... started sorting BAM
+May 16 20:45:59 ..... finished successfully
+	STAR --runThreadN 15 --genomeDir /proj/genomeanalysis2023/nobackup/work/evelinaa/9_mapping_RNA_DNA_star --readFilesIn /home/eveli/genomeanalysis2023/4_Tean_Teh_2017/transcriptome/trimmed/SRR6156067_scaffold_10.1.fastq.gz /home/eveli/genomeanalysis2023/4_Tean_Teh_2017/transcriptome/trimmed/SRR6156067_scaffold_10.2.fastq.gz --readFilesCommand zcat --outFileNamePrefix /proj/genomeanalysis2023/nobackup/work/evelinaa/9_mapping_RNA_DNA_star/SRR6156067_scaffold_10_mapped --outSAMtype BAM SortedByCoordinate --genomeSAindexNbases 11
+	STAR version: 2.7.9a   compiled: 2021-10-20T18:01:41+0200 rackham5.uppmax.uu.se:/sw/bioinfo/star/2.7.9a/src/STAR-2.7.9a/source
+May 16 20:46:00 ..... started STAR run
+May 16 20:46:00 ..... loading genome
+May 16 20:46:00 ..... started mapping
+May 16 20:46:25 ..... finished mapping
+May 16 20:46:25 ..... started sorting BAM
+May 16 20:46:28 ..... finished successfully
+	STAR --runThreadN 15 --genomeDir /proj/genomeanalysis2023/nobackup/work/evelinaa/9_mapping_RNA_DNA_star --readFilesIn /home/eveli/genomeanalysis2023/4_Tean_Teh_2017/transcriptome/trimmed/SRR6156069_scaffold_10.1.fastq.gz /home/eveli/genomeanalysis2023/4_Tean_Teh_2017/transcriptome/trimmed/SRR6156069_scaffold_10.2.fastq.gz --readFilesCommand zcat --outFileNamePrefix /proj/genomeanalysis2023/nobackup/work/evelinaa/9_mapping_RNA_DNA_star/SRR6156069_scaffold_10_mapped --outSAMtype BAM SortedByCoordinate --genomeSAindexNbases 11
+	STAR version: 2.7.9a   compiled: 2021-10-20T18:01:41+0200 rackham5.uppmax.uu.se:/sw/bioinfo/star/2.7.9a/src/STAR-2.7.9a/source
+May 16 20:46:29 ..... started STAR run
+May 16 20:46:29 ..... loading genome
+May 16 20:46:29 ..... started mapping
+May 16 20:47:01 ..... finished mapping
+May 16 20:47:02 ..... started sorting BAM
+May 16 20:47:07 ..... finished successfully
